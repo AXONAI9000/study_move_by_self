@@ -1,0 +1,16 @@
+[package]
+name = "day06"
+version = "1.0.0"
+authors = []
+
+[addresses]
+day06 = "_"
+
+[dev-addresses]
+day06 = "0x1213213"
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

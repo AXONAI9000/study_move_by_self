@@ -4,7 +4,18 @@
       "Bash(where git)",
       "Bash(where:*)",
       "Bash(setx:*)",
-      "Bash(claude mcp:*)"
+      "Bash(claude mcp:*)",
+      "WebSearch",
+      "WebFetch(domain:aptos.dev)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl:*)",
+      "Bash(aptos:*)",
+      "Bash(npm install:*)",
+      "Bash(npm search:*)",
+      "Bash(npm info @upstash/context7-mcp)",
+      "Bash(context7-mcp:*)",
+      "Bash(npm info:*)",
+      "WebFetch(domain:upstash.com)"
     ],
     "deny": [],
     "ask": []

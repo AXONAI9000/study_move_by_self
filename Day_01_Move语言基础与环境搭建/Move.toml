@@ -1,0 +1,19 @@
+[package]
+name = "day01"
+version = "1.0.0"
+authors = []
+
+[addresses]
+day01 = "_"
+my_addr = "_"
+
+[dev-addresses]
+day01 = "0x1"
+my_addr = "0x1"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

@@ -1,0 +1,24 @@
+[package]
+name = "Day11StandardLibrary"
+version = "1.0.0"
+authors = []
+
+[addresses]
+stdlib_examples = "_"
+task1 = "_"
+task2 = "_"
+task3 = "_"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-stdlib"
+
+[dev-dependencies]

@@ -1,0 +1,22 @@
+[package]
+name = "CompleteDEX"
+version = "1.0.0"
+authors = ["Your Name <your.email@example.com>"]
+
+[addresses]
+dex_addr = "0xcafe"  # 将在部署时替换为实际地址
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-stdlib"
+
+[dev-dependencies]
+
+[build]
+# 编译配置

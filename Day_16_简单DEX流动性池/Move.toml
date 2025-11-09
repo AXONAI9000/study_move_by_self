@@ -1,10 +1,11 @@
 [package]
-name = "Day12VotingSystem"
+name = "Day16_LiquidityPool"
 version = "1.0.0"
-authors = []
+authors = ["Aptos Course"]
 
 [addresses]
-voting_example = "0xCAFE"
+day16 = "_"
+deployer = "_"
 
 [dev-addresses]
 

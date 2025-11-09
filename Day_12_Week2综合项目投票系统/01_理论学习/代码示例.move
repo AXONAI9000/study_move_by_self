@@ -3,7 +3,6 @@
 module voting_example::simple_voting {
     use std::signer;
     use std::string::{Self, String};
-    use std::vector;
     use std::option::{Self, Option};
     use aptos_framework::timestamp;
     use aptos_framework::event::{Self, EventHandle};
@@ -14,13 +13,20 @@ module voting_example::simple_voting {
     // ==================== 错误码 ====================
     
     const ERROR_NOT_INITIALIZED: u64 = 1;
+    /// 投票系统已经初始化
     const ERROR_ALREADY_INITIALIZED: u64 = 2;
     const ERROR_NOT_ADMIN: u64 = 3;
+    /// 提案未找到
     const ERROR_PROPOSAL_NOT_FOUND: u64 = 4;
+    /// 无效的投票时间段
     const ERROR_INVALID_VOTING_PERIOD: u64 = 5;
+    /// 投票尚未开始
     const ERROR_VOTING_NOT_STARTED: u64 = 6;
+    /// 投票已结束
     const ERROR_VOTING_ENDED: u64 = 7;
+    /// 已经投过票
     const ERROR_ALREADY_VOTED: u64 = 8;
+    /// 无效的投票类型
     const ERROR_INVALID_VOTE_TYPE: u64 = 9;
     const ERROR_PROPOSAL_NOT_PASSED: u64 = 10;
     const ERROR_ALREADY_EXECUTED: u64 = 11;

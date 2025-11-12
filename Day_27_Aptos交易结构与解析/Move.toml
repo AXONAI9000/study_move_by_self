@@ -1,0 +1,19 @@
+[package]
+name = "Day27_TransactionParser"
+version = "1.0.0"
+authors = []
+
+[addresses]
+day27 = "_"
+exam = "_"
+parser = "_"
+transaction_examples = "_"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

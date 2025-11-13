@@ -1,0 +1,21 @@
+[package]
+name = "Day32_MEV_Strategies"
+version = "1.0.0"
+authors = ["KiloCode Team"]
+
+[addresses]
+mev_examples = "_"
+mev_tasks = "_"
+exam = "_"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-stdlib"
+
+[dev-dependencies]
